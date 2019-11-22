@@ -1,0 +1,125 @@
+.nav {
+background-color: #4287f5;
+    width: 100%;
+    height: 60px;
+    align-content: center;
+     
+  position: sticky;
+  top: 0;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 60px;
+   justify-content: center;
+   
+}
+.boxes {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 9px 18px 0px 20px;
+    margin-top: 5px;
+   
+}
+.boxes1:hover {
+    border-style: solid;
+}
+
+.boxes1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 9px 18px 0px 20px;
+    margin-top: 5px;
+   
+}
+
+.boxes2 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 9px 18px 0px 20px;
+    margin-top: 5px;
+   
+}
+.boxes2:hover {
+    transform: scale(0.7);
+     transition: all 0.2s ease-in;
+}
+
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: #26CAD3;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    color: #E15829;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.store {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+}
+.products {
+    width: 290px;
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.products:hover {
+    color: darkblue;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    margin-top: 200px;
+    width: 100%;
+    height: 400px;
+    background-color: #001626;
+text-align: center;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    margin-left: 640px;
+    color: #666666;
+    font-size: 15px;
+    font-style: italic;
+    text-align: right;
+}
+
+h2 {
+    color: #E15829;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.shop-footer {
+     color: #666666;
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+    margin-left: 50px;
+}
+.news {
+    margin-top: 20px;
+    margin-left: 50px;
+}

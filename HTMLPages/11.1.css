@@ -1,0 +1,22 @@
+#tweet-container {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+#tweet-profile {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+#profile-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#profile-hash {
+    color: gray;
+}
